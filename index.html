@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Test Site</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway"
-        rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700"
-        rel="stylesheet">
+  <!--  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway"-->
+  <!--        rel="stylesheet">-->
+  <!--  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700"-->
+  <!--        rel="stylesheet">-->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400i&display=swap"
         rel="stylesheet">
   <link rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
         crossorigin="anonymous">
   <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+        href="css/jquery.fancybox.css"/>
   <link rel="stylesheet" href="css/flexslider.css"/>
-  <script type="text/javascript">
-    $(window).load(function () {
-      $('.flexslider').flexslider({
-        animation: "fade"
-      });
-    });
-  </script>
 
 
-  <title>Test Site</title>
 </head>
 <body>
 <section class="site-head">
@@ -40,7 +35,7 @@
           <li><a href="#features">Features</a></li>
           <li><a href="#works">Works</a></li>
           <li><a href="#our-team">Our Team</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#tes">Testimonials</a></li>
           <li><a href="#download">Download</a></li>
         </ul>
       </nav>
@@ -223,7 +218,7 @@
   <div class="team-container">
     <div class="team-container-content">
       <div class="team">
-        <div class="worker-1 worker-all">
+        <div class="workers">
           <img src="./assets/main-workers/team-1.jpg" alt="team-1">
           <h1>Ruth Wood</h1>
           <h5>FOUNDER, CEO</h5>
@@ -243,7 +238,7 @@
         </div>
       </div>
       <div class="team">
-        <div class="worker-2 worker-all">
+        <div class="workers">
           <img src="./assets/main-workers/team-2.jpg" alt="team-2">
           <h1>Timothy Reed</h1>
           <h5>CO-FOUNDER, DEVELOPER</h5>
@@ -263,7 +258,7 @@
         </div>
       </div>
       <div class="team">
-        <div class="worker-3 worker-all">
+        <div class="workers">
           <img src="./assets/main-workers/team-3.jpg" alt="team-3">
           <h1>Victoria Valdez</h1>
           <h5>UI DESIGNER</h5>
@@ -283,7 +278,7 @@
         </div>
       </div>
       <div class="team">
-        <div class="worker-4 worker-all">
+        <div class="workers">
           <img src="./assets/main-workers/team-4.jpg" alt="team-4">
           <h1>Beverly Little</h1>
           <h5>DATA SCIENTIST</h5>
@@ -307,29 +302,97 @@
 
 </section>
 
-<section id="testimonials">
+<section id="tes">
   <div class="tes-container">
     <div class="flexslider">
       <ul class="slides">
         <li>
           <img src="assets/main-slider/testimonial-1.jpg"/>
+          <div class="slider-text">
+            <p class="cite">"Integer posuere erat a ante venenatis dapibus
+              posuere velit
+              aliquet. Donec sed odio dui. Aenean eu leo quam..."
+            </p>
+            <p class="author">Susan Sims, Interaction Designer at XYZ</p>
+          </div>
         </li>
         <li>
           <img src="assets/main-slider/testimonial-2.jpg"/>
+          <div class="slider-text">
+            <p class="cite">"Cras mattis consectetur purus sit amet fermentum.
+              Donec sed odio
+              dui. Aenean lacinia bibendum nulla sed consectetur...."
+            </p>
+            <p class="author">Susan Sims, Interaction Designer at XYZ</p>
+          </div>
         </li>
       </ul>
     </div>
   </div>
 </section>
 
-<div id="download">
+<section id="download">
+  <div class="dow-container">
+    <div class="dow-container-content">
+      <h3>Are You Ready to Start? Download Now For Free!</h3>
+      <p>Fusce dapibus, tellus ac cursus commodo</p>
+      <a href="#" class="btn">Download For Free</a>
+    </div>
+  </div>
+</section>
 
-</div>
 <footer>
-
+  <div class="footer-top">
+    <div class="top-container">
+      <div class="top-content location">
+        <h5>Location</h5>
+        <p>
+          3481 Melrose Place
+          <br>
+          Beverly Hills, CA 90210
+        </p>
+      </div>
+      <div class="top-content share">
+        <h5>Share with Love</h5>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+        </ul>
+      </div>
+      <div class="top-content about">
+        <h5>About ActiveBox</h5>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+          ullamcorper nulla non metus auctor fringilla.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="bottom-container">
+      <div class="bottom-content">
+        <p>Copyright © 2015 ActiveBox. All Rights Reserved</p>
+         <p>Made with <i class="fa fa-heart pulse"></i> by
+           <a href="#" class="by-author">Kamal Chaneman</a>
+         </p>
+      </div>
+    </div>
+  </div>
 </footer>
-<script src="js/jquery-3.4.1.min.js"></script>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+<script src="js/jquery.min.js"></script>
 <script src="js/jquery.fancybox.js"></script>
 <script src="js/jquery.flexslider.js"></script>
+<script>
+  $(window).on('load', function () {
+    $('.flexslider').flexslider({
+      animation: "fade",
+      start: function (slider) {
+        $('body').removeClass('loading');
+      }
+    });
+  });
+</script>
 </body>
 </html>
